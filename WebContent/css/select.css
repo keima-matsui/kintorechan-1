@@ -1,0 +1,72 @@
+.bg_select {
+    @include border-radius(4px);
+   display: inline-block;
+    background: #474c51;
+    background: -moz-linear-gradient(top center, #474c51 0%, #474c51 100%);
+    background: -webkit-gradient(linear, center top, center bottom, from(#474c51), to(#474c51));
+    background: linear-gradient(to bottom center, #474c51 0%, #474c51 100%);
+    position: relative;
+    z-index: 10;
+    width: 50px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.bg_select2 {
+    @include border-radius(4px);
+    display: inline-block;
+    background: #474c51;
+    background: -moz-linear-gradient(top center, #474c51 0%, #474c51 100%);
+    background: -webkit-gradient(linear, center top, center bottom, from(#474c51), to(#474c51));
+    background: linear-gradient(to bottom center, #474c51 0%, #474c51 100%);
+    position: relative;
+    z-index: 10;
+    width: 300px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.bg_select3 {
+    @include border-radius(4px);
+    display: inline-block;
+    background: #474c51;
+    background: -moz-linear-gradient(top center, #474c51 0%, #474c51 100%);
+    background: -webkit-gradient(linear, center top, center bottom, from(#474c51), to(#474c51));
+    background: linear-gradient(to bottom center, #474c51 0%, #474c51 100%);
+    position: relative;
+    z-index: 10;
+    width: 70px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+
+.select_box {
+    padding: 11px 0 10px 15px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    width: 430px;
+    display: block;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    background-image: url(../img/arrow_btm.png);
+    background-position: 340px center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 15;
+    vertical-align: middle;
+    line-height: 30px;
+    box-sizing: border-box;
+    border: none;
+    option {
+        color: #333;
+    }
+    &::-ms-expand {
+        display: none;
+    }
+}
