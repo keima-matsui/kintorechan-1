@@ -1,13 +1,18 @@
-# KintoreChan
-■新たにやってみたこと
+# 筋トレちゃん( Kintore Chan)
+ Muscle training SNS.  
+ It can share your training menu and show statics.
 
-jQuerryにて要素を動かす
+### function
+  - Share Training menu
+  - Show menu statics
+  
 
-MVCを意識しての構築
+### Tech
+* No Framework
+* JQuerry Element move
+* DB Control
 
-Youtubeのiframeのレスポンシブ化
+### IMAGES
+![top](https://github.com/keima-matsui/kintorechan-1/blob/master/top.png)
 
-予定？
-動的なグラフの表示
-パスワードにハッシュを使う
-その他色々
+
